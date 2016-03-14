@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.chinna.myvil")
+@ComponentScan(basePackages = "com.chinna.myvil.controllers")
 public class WebApplicationConfig extends WebMvcConfigurerAdapter {
      
     @Bean
