@@ -9,7 +9,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan({ "com.chinna.myvil.controllers" })
+@ComponentScan({ "com.chinna.myvil" })
 public class ViewConfig {
 	
 	@Bean
