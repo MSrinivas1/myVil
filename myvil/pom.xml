@@ -40,9 +40,7 @@
 		<timestamp>${maven.build.timestamp}</timestamp>
 	</properties>
 
-
 	<dependencies>
-
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -55,7 +53,6 @@
 		</dependency>
 
 		<!-- spring configurations start -->
-
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
@@ -91,7 +88,6 @@
 			<artifactId>spring-aop</artifactId>
 			<version>4.2.5.RELEASE</version>
 		</dependency>
-
 
 		<!-- spring dependency end -->
 
@@ -179,3 +175,4 @@
 		</plugins>
 	</build>
 </project>
+<!-- End POM -->
